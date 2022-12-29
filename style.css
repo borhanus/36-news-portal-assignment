@@ -1,0 +1,14 @@
+.body-color {
+    background-color: #F6F6F6;
+}
+
+.text-color .hover-element:hover {
+    color: #5D5FEF;
+}
+.hover-element:hover {
+    color: #5D5FEF;
+}
+
+.text-bg {
+    background-color: #5D5FEF;
+}
