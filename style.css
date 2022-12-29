@@ -5,11 +5,31 @@
 .text-color{
     color: #5D5FEF;
 }
+.category li a{
+    padding: 2px 35px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.55);
 
+}
+.category li a:hover{
+    background-color: rgb(93, 95, 239, .25);
+    color: #5D5FEF;
+}
 .hover-element.he-active, .hover-element:hover {
     color: #5D5FEF;
 }
 
 .text-bg {
     background-color: #5D5FEF;
+    color: white;
+}
+
+.my-button {
+    border: 1px solid #5D5FEF;
+    background-color: #5D5FEF;
+    color: white;
+}
+.my-button:hover{
+    color: #5D5FEF;
+    background-color: white;
 }
