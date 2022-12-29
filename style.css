@@ -2,10 +2,11 @@
     background-color: #F6F6F6;
 }
 
-.text-color .hover-element:hover {
+.text-color{
     color: #5D5FEF;
 }
-.hover-element:hover {
+
+.hover-element.he-active, .hover-element:hover {
     color: #5D5FEF;
 }
 
