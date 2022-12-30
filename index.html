@@ -9,11 +9,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/275ff57c0b.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="body-color">
     <header class="container pb-3 border-bottom border-3">
-        <!-- Navigation Starts -->
+        <!-- Navigation -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid d-flex">
                 <a class="navbar-brand py-2 px-3 rounded-3 text-white text-bg fw-semibold" href="#">The Daily Brief</a>
@@ -38,9 +39,10 @@
                 </div>
             </div>
         </nav>
-        <!-- Navigation Ends -->
+        <!-- Navigation -->
     </header>
     <main class="container my-3">
+        <!-- Category -->
         <section>
             <nav>
                 <ul class="nav justify-content-center fw-semibold category pb-3">
@@ -62,25 +64,25 @@
                 A simple light alert—check it out!
             </div>
         </section>
+        <!-- Category -->
+        <!-- Sort -->
         <section>
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
-                    <div>
-                        <ul class="navbar-nav">
-                            <li class="nav-item nav-link fw-semibold"><span class="text-black">Sort By:</span></li>
-                            <li class="nav-item dropdown text-black fw-semibold">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Select
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item fw-semibold" href="#">Default</a></li>
-                                    <li><a class="dropdown-item fw-semibold" href="#">A-Z</a></li>
-                                    <li><a class="dropdown-item fw-semibold" href="#">Z-A</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul class="d-flex p-0 m-0 gap-3">
+                        <li class="nav-item nav-link fw-semibold"><span class="text-black">Sort By:</span></li>
+                        <li class="nav-item dropdown text-black fw-semibold text-muted">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Select
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fw-semibold" href="#">Default</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">A-Z</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">Z-A</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                     <div>
                         <button class="py-2 px-3 rounded-3 my-button fw-semibold">Today's Pick</button>
                         <button class="py-2 px-3 rounded-3 my-button fw-semibold">Trending</button>
@@ -88,20 +90,67 @@
                 </div>
             </nav>
         </section>
-        
-
-
+        <!-- Sort -->
+        <!-- Posts -->
+        <section class="mb-5">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4 card-body d-flex">
+                        <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8 d-grid align-content-between">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Card title</h5>
+                            <p class="card-text text-muted">This is a wider card with supporting text below as a
+                                natural
+                                lead-in to
+                                additional content. This content is a little bit longer. This is a wider card with
+                                supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.This is a wider card with
+                                supporting text below as a
+                            </p>
+                            <br>
+                            <p class="card-text text-muted">This content is a little bit longer.This is a wider card with
+                                supporting text below as a
+                                natural
+                                lead-in to
+                                additional content . . .
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center card-body">
+                            <div class="d-flex gap-2 align-items-center">
+                                <img class="rounded-circle" src="images/person.jpeg" alt="" height="40" width="40">
+                                <ul class="list-no m-0 p-0">
+                                    <li class="fw-semibold">Jane Cooper</li>
+                                    <li class="text-muted fw-semibold fs-6"><small>Jan 10, 2022</small></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-eye"></i>
+                                <span class="ps-2 fw-semibold">1.5 M</span>
+                            </div>
+                            <ul class="d-flex m-0 p-0 gap-3">
+                                <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <div class="pe-3">
+                                <a href=""><i class="fa-solid fa-arrow-right fs-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Posts -->
     </main>
-
-    <footer class="container">
-
+    <footer class="bg-white py-4">
+        <p class="text-center m-0">Copyright 2021 News Portal</p>
     </footer>
-
-
-
-
-
-
 
 
 
