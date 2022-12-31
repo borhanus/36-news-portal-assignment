@@ -217,7 +217,21 @@ const loadding = isLoading => {
 }
 categoryItems(08);
 
-
+const todayTrendings = document.querySelectorAll('#todayTrending button');
+todayTrendings.forEach(todayTrending => {
+    todayTrending.addEventListener('click', function (event) {
+        todayTrendings.forEach(todayTrending => {
+            todayTrending.classList.remove('my-active');
+        })
+        event.target.classList.add('my-active');
+        // if (event.target.innerText === `Today's Pick`) {
+        //     todayPickCategoryItems();
+        // }
+        // else if (event.target.innerText === 'Trending') {
+        //     todayPickCategoryItems();
+        // }
+    })
+});
 
 
 
@@ -352,41 +366,4 @@ categoryItems(08);
 // }
 
 
-const todayTrendings = document.querySelectorAll('#todayTrending button');
-todayTrendings.forEach(todayTrending => {
-    todayTrending.addEventListener('click', function (event) {
-        todayTrendings.forEach(todayTrending => {
-            todayTrending.classList.remove('my-active');
-        })
-        event.target.classList.add('my-active');
-        // if (event.target.innerText === `Today's Pick`) {
-        //     todayPickCategoryItems();
-        // }
-        // else if (event.target.innerText === 'Trending') {
-        //     todayPickCategoryItems();
-        // }
-    })
-});
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-    console.log('data');
-    console.log(data);
-
-
-
-
-
-
-*/
