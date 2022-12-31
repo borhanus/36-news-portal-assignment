@@ -9,15 +9,14 @@ ul {
     color: #5D5FEF;
 }
 .category li a{
-    padding: 2px 35px;
+    padding: 2px 25px;
     border-radius: 5px;
-    color: rgba(0, 0, 0, 0.55);
-
+    color: #636464;
 }
-.category li a:hover{
-    background-color: rgb(93, 95, 239, .25);
+.category li a:hover, .category li a.cat-active{
+    background-color: rgb(93, 95, 239, .2);
     color: #5D5FEF;
-    transition-duration: .5s;
+    transition-duration: .4s;
 }
 .hover-element.he-active, .hover-element:hover {
     color: #5D5FEF;
@@ -30,11 +29,12 @@ ul {
 
 .my-button {
     border: 1px solid #5D5FEF;
-    background-color: #5D5FEF;
-    color: white;
-}
-.my-button:hover{
+    
     color: #5D5FEF;
     background-color: white;
-    transition-duration: .5s;
+}
+.my-button:hover, .my-active{
+    background-color: #5D5FEF;
+    color: white;
+    transition-duration: .4s;
 }
