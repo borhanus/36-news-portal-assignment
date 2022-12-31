@@ -67,8 +67,8 @@
                 <span id="numberOfCategory"></span> items found <span id="nameOfCategory"></span>
             </div>
         </section>
-        <!-- Sort -->
-        <section>
+        <!-- Posts -->
+        <section class="mb-5">
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
                     <ul class="d-flex p-0 m-0 gap-3">
@@ -86,18 +86,40 @@
                         </li>
                     </ul>
                     <div id="todayTrending">
-                        <button class="py-2 px-3 rounded-3 my-button fw-semibold">Today's Pick</button>
-                        <button class="py-2 px-3 rounded-3 my-button fw-semibold">Trending</button>
+                        <button id="todaysPick" class="py-2 px-3 rounded-3 my-button fw-semibold">Today's Pick</button>
+                        <button id="todaysTrending" class="py-2 px-3 rounded-3 my-button fw-semibold">Trending</button>
                     </div>
                 </div>
             </nav>
-        </section>
-        <!-- Sort -->
-        <!-- Posts -->
-        <section id="newsPosts" class="mb-5">
-            
+            <div id="newsPosts">
+
+            </div>
         </section>
         <!-- Posts -->
+        <!-- Modal -->
+        <section>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="dailyBriefModal"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="dailyBriefModal">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div id="modalContent" class="modal-body">
+                            <!-- <div class="card border-0">
+                                <div class="card-body p-0">
+                                    <img class="d-block mx-auto mb-3" src="https://i.ibb.co/BZZ5WKv/unsplash-Eh-Tc-C9s-YXsw-4.png" alt="">
+                                    <p class="card-text"></p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal -->
+
     </main>
     <footer class="bg-white py-4">
         <p class="text-center m-0 fw-semibold">Copyright 2021 News Portal</p>
