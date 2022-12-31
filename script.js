@@ -234,7 +234,7 @@ todayTrendings.forEach(todayTrending => {
 });
 
 
-
+// failed to add this code
 
 // // let todaysPickArray = [];
 // // let todaysTrendingArray = [];
